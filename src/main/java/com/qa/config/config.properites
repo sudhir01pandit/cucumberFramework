@@ -1,0 +1,2 @@
+browser = chrome
+url = http://wbwebadmin-qa.azurewebsites.net/account/logon?ReturnUrl=%2flocations

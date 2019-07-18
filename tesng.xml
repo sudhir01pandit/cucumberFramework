@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- !<suite name="Test Suite" parallel="methods" thread-count="2" verbose="1"> -->
+<suite name="Test Suite">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+		<!-- <listener class-name="Analyzer.MyTransformer" /> -->
+	</listeners>
+
+	<test name="Admin Tests">
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest" />
+		</classes>
+	</test>
+</suite>
